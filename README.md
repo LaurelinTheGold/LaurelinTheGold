@@ -58,7 +58,7 @@ Wavefront Path Tracer that also supports [A-trous Denoising](https://github.com/
 ### [Vulkan Grass Renderer](https://github.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering): ### 
 Physics-based grass simulation using tessellation shaders <br/>
 `C++` `Vulkan` <br/>
-<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering/master/img/thick_grass.png" width="480" />
+<img src="vulkan_grass_ezgif.com-gif-maker.gif" width="480" />
 
 ### [CUDA Flocking Boids](https://github.com/LaurelinTheGold/Project1-CUDA-Flocking): ###
 Flocking Boids <br/>
@@ -77,7 +77,7 @@ Towers of Hanoi demo, written in J, compiled to LC4, then run in a simulator <br
 <img src="ezgif.com-gif-maker.gif" width="480" />
 
 ### [CPU Pathtracer](https://github.com/LaurelinTheGold/RTIOW_rust): ###
-[RTIOW](https://raytracing.github.io/books/RayTracingInOneWeekend.html) <br/>
+CPU Pathtracer following the Ray Tracing in One Weekend [RTIOW](https://raytracing.github.io/books/RayTracingInOneWeekend.html) tutorial <br/>
 `Rust` <br/>
 <img src="https://raw.githubusercontent.com/LaurelinTheGold/RTIOW_rust/main/images/image_balls_1920_1200.png" width="480" />
 
