@@ -101,6 +101,18 @@ Implemented the [FLAVR](https://tarun005.github.io/FLAVR/) video frame interpola
 `C++` `CUDA` 
 ![](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer/raw/main/finalRenders/ebon_final.png) <br />
 
+## [Mini-Minecraft](https://www.youtube.com/watch?v=d-_nEmR7Yp4)
+<center>
+ <iframe width="560" 
+         height="315" 
+         src="https://www.youtube.com/watch?v=d-_nEmR7Yp4" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+ </iframe>
+</center>
+
 
 
 <!-- ### Some Exposure ProgLangs###
