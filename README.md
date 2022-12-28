@@ -48,38 +48,44 @@ A Video Frame Interpolation Neural Network implemented using C++, CUDA, and cuDN
 `C++` `CUDA` `cuDNN` `Python` `PyTorch` <br/>
 | **Original (30 FPS)** | **2x interpolated (30 FPS)** |
 | --------------------- | ---------------------------- |
-| <img src="https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel.gif" width=240/> | <img src="https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel_2x.gif" width=240/> |
+| <img src="https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel.gif" width="240" /> | <img src="https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel_2x.gif" width="240" /> |
 
 ### [GPU Wavefront Pathtracer](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer): ###
 Wavefront Path Tracer that also supports [A-trous Denoising](https://github.com/LaurelinTheGold/Project4-CUDA-Denoiser/tree/denoiser) <br/>
 `C++` `CUDA` <br/>
-<img src="https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer/raw/main/finalRenders/ebon_final.png" width=480/>
+<img src="https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer/raw/main/finalRenders/ebon_final.png" width="480" />
 
 ### [Vulkan Grass Renderer](https://github.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering): ### 
 Physics-based grass simulation using tessellation shaders <br/>
 `C++` `Vulkan` <br/>
-<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering/master/img/thick_grass.png" width=480/>
+<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering/master/img/thick_grass.png" width="480" />
 
 ### [CUDA Flocking Boids](https://github.com/LaurelinTheGold/Project1-CUDA-Flocking): ###
 Flocking Boids <br/>
 `C++` `CUDA` <br/>
-<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project1-CUDA-Flocking/main/images/recording2.gif" width=480/>
+<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project1-CUDA-Flocking/main/images/recording2.gif" width="480" />
 
 ### [Mini-Minecraft](): ###
 Minecraft-like voxel sandbox game, [Demo](https://www.youtube.com/watch?v=d-_nEmR7Yp4) <br/>
 `C++` `OpenGL` `GLSL` `Qt Creator` <br/>
-<img src="Screenshot_20221228_120722.png" width=480/>
+<img src="Screenshot_20221228_120722.png" width="480" />
 
 ### [JCompiler](): ###
 A compiler for the J language[^JC] that targets LC4[^LC4] assembly <br/>
 `C` <br/>
-<img src="ezgif.com-gif-maker.gif" width=480/>
+Towers of Hanoi demo, written in J, compiled to LC4, then run in a simulator <br/>
+<img src="ezgif.com-gif-maker.gif" width="480" />
+
+### [CPU Pathtracer](https://github.com/LaurelinTheGold/RTIOW_rust): ###
+[RTIOW](https://raytracing.github.io/books/RayTracingInOneWeekend.html) <br/>
+`Rust` <br/>
+<img src="https://raw.githubusercontent.com/LaurelinTheGold/RTIOW_rust/main/images/image_balls_1920_1200.png" width="480" />
+
+## TODO ##
 
 * [MicroMaya Half Edge Mesh Editor](): 
 Half-Edge Mesh editor (generated from obj files) using C++, Qt Creator, and OpenGL
 <!-- * [Rasterizer and Scene Graph?] -->
-
-
 
 * [Fill In The Gaps](): 
 Object Localization using Event Based Cameras
@@ -92,7 +98,6 @@ Dual-Issue, In-Order, Pipelined LC4[^LC4] CPU implemented in Verilog
 
 * [PennOS]()
 * [PennShell]()
-
 
 * [Lu Syntax Checker](): 
 Adding a type system, syntax checking, and language server to a subset of Lua using Haskell Monad Transformers
@@ -108,8 +113,6 @@ Chip8 Emulator built using C
 
 * [Meam520 Final Competition]()
 
-* [CPU Pathtracer]():
-RTIOW implemented in Rust
 
 
 
