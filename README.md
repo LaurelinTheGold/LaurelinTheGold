@@ -102,7 +102,7 @@ Implemented the [FLAVR](https://tarun005.github.io/FLAVR/) video frame interpola
 ![](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer/raw/main/finalRenders/ebon_final.png) <br />
 
 ## [Mini-Minecraft](https://www.youtube.com/watch?v=d-_nEmR7Yp4)
-<center>
+<!-- <center>
  <iframe width="560" 
          height="315" 
          src="https://www.youtube.com/watch?v=d-_nEmR7Yp4" 
@@ -111,7 +111,9 @@ Implemented the [FLAVR](https://tarun005.github.io/FLAVR/) video frame interpola
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
          allowfullscreen>
  </iframe>
-</center>
+</center> -->
+
+[![Watch the video](Screenshot_20221228_120722.png)](https://www.youtube.com/watch?v=d-_nEmR7Yp4)
 
 
 
