@@ -43,25 +43,49 @@ I like code that: interacts with the real world[^1], uses cool math[^2] to solve
 
 ## Projects ##
 
+### [cuFLAVR](https://github.com/adityahota/CIS565-Final-Project-SlowMo): ###
+A Video Frame Interpolation Neural Network implemented using C++, CUDA, and cuDNN <br/>
+`C++` `CUDA` `cuDNN` `Python` `PyTorch` <br/>
+| **Original (30 FPS)** | **2x interpolated (30 FPS)** |
+| --------------------- | ---------------------------- |
+| <img src="https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel.gif" width=240/> | <img src="https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel_2x.gif" width=240/> |
+
+### [GPU Wavefront Pathtracer](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer): ###
+Wavefront Path Tracer that also supports [A-trous Denoising](https://github.com/LaurelinTheGold/Project4-CUDA-Denoiser/tree/denoiser) <br/>
+`C++` `CUDA` <br/>
+<img src="https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer/raw/main/finalRenders/ebon_final.png" width=480/>
+
+### [Vulkan Grass Renderer](https://github.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering): ### 
+Physics-based grass simulation using tessellation shaders <br/>
+`C++` `Vulkan` <br/>
+<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project5-Vulkan-Grass-Rendering/master/img/thick_grass.png" width=480/>
+
+### [CUDA Flocking Boids](https://github.com/LaurelinTheGold/Project1-CUDA-Flocking): ###
+Flocking Boids <br/>
+`C++` `CUDA` <br/>
+<img src="https://raw.githubusercontent.com/LaurelinTheGold/Project1-CUDA-Flocking/main/images/recording2.gif" width=480/>
+
+### [Mini-Minecraft](): ###
+Minecraft-like voxel sandbox game, [Demo](https://www.youtube.com/watch?v=d-_nEmR7Yp4) <br/>
+`C++` `OpenGL` `GLSL` `Qt Creator` <br/>
+<img src="Screenshot_20221228_120722.png" width=480/>
+
+### [JCompiler](): ###
+A compiler for the J language[^JC] that targets LC4[^LC4] assembly <br/>
+`C` <br/>
+<img src="ezgif.com-gif-maker.gif" width=480/>
+
+* [MicroMaya Half Edge Mesh Editor](): 
+Half-Edge Mesh editor (generated from obj files) using C++, Qt Creator, and OpenGL
+<!-- * [Rasterizer and Scene Graph?] -->
+
+
+
 * [Fill In The Gaps](): 
 Object Localization using Event Based Cameras
 
 * [Data Unlimited Compile for FPGAs](): 
 Easier FPGA prototyping with more RAM and faster compile times
-
-* [cuFLAVR](https://github.com/adityahota/CIS565-Final-Project-SlowMo): 
-A Neural Network implemented using C++, CUDA, and cuDNN
-* [Vulkan Grass Renderer](): 
-Physics-based grass simulation using Vulkan compute and tesselation shaders
-* [GPU Wavefront Pathtracer](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer): 
-Wavefront Path Tracer implemented using CUDA
-* [Flocking Boids](): Flocking Bois implemented using CUDA
-
-* [Mini-Minecraft](): 
-Minecraft-like voxel sandbox game using C++, Qt Creator, and OpenGL
-* [MicroMaya Half Edge Mesh Editor](): 
-Half-Edge Mesh editor (generated from obj files) using C++, Qt Creator, and OpenGL
-<!-- * [Rasterizer and Scene Graph?] -->
 
 * [Superscalar Pipelined LC4 CPU]():
 Dual-Issue, In-Order, Pipelined LC4[^LC4] CPU implemented in Verilog
@@ -69,7 +93,6 @@ Dual-Issue, In-Order, Pipelined LC4[^LC4] CPU implemented in Verilog
 * [PennOS]()
 * [PennShell]()
 
-* [JCompiler](): A compiler for the J language[^JC] that targets LC4[^LC4] assembly, written in C
 
 * [Lu Syntax Checker](): 
 Adding a type system, syntax checking, and language server to a subset of Lua using Haskell Monad Transformers
@@ -88,32 +111,16 @@ Chip8 Emulator built using C
 * [CPU Pathtracer]():
 RTIOW implemented in Rust
 
-## [cuFLAVR](https://github.com/adityahota/CIS565-Final-Project-SlowMo) ## 
+
+
+<!-- ## [cuFLAVR](https://github.com/adityahota/CIS565-Final-Project-SlowMo) ## 
 `C++` `CUDA` `cuDNN` `Python` `PyTorch` <br /> <br />
 Implemented the [FLAVR](https://tarun005.github.io/FLAVR/) video frame interpolation neural network using CUDA and cuDNN.
 
 **Original (30 FPS)**<br />
 ![](https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel.gif) <br />
 **2x interpolated (30 FPS)**<br />
-![](https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel_2x.gif) <br />
-
-## [GPU Wavefront Pathtracer](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer) ##
-`C++` `CUDA` 
-![](https://github.com/LaurelinTheGold/Project3-CUDA-Path-Tracer/raw/main/finalRenders/ebon_final.png) <br />
-
-## [Mini-Minecraft](https://www.youtube.com/watch?v=d-_nEmR7Yp4)
-<!-- <center>
- <iframe width="560" 
-         height="315" 
-         src="https://www.youtube.com/watch?v=d-_nEmR7Yp4" 
-         title="YouTube video player" 
-         frameborder="0" 
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-         allowfullscreen>
- </iframe>
-</center> -->
-
-[![Watch the video](Screenshot_20221228_120722.png)](https://www.youtube.com/watch?v=d-_nEmR7Yp4)
+![](https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel_2x.gif) <br /> -->
 
 
 
