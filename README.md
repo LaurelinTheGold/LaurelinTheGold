@@ -78,7 +78,7 @@ Minecraft-like voxel sandbox game, [Demo](https://www.youtube.com/watch?v=d-_nEm
 ### [MicroMaya Half Edge Mesh Editor](https://github.com/LaurelinTheGold/College_Public/blob/main/stingy.md): ###
 Half-Edge Mesh editor <br/>
 `C++` `OpenGL` `Qt Creator` `GLSL` `Rendering` `Computer Graphics` `Animation` <br/>
-| Catmull-Clark Subdivision | Skeleton/Joint Binding | Linear Blend Skinning |
+| Catmull-Clark Subdivision (with fixed/sharp corners) | Skeleton/Joint Binding | Linear Blend Skinning |
 |---------------------------|-------------------------------------|-----------------------|
 | <img src="./demo_imgs/159842490_804116646845135_3086751840735921174_n.png" height="180" /> | <img src="./demo_imgs/162232470_5255659964475862_8966000904798328284_n.png" height="180" /> | <img src="./demo_imgs/163107793_264296075238540_2445317366563914140_n.png" height="180" /> |
 
